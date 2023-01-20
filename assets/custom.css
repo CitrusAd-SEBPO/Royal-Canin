@@ -157,7 +157,7 @@ img.citrusRoyal--logo {
   align-items: center;
 }
 .pov1-textBox h1 {
-  margin: 0;
+  margin: 0 0 5px;
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-weight: bolder;
   font-size: 35px;
