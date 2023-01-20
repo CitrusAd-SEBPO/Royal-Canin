@@ -215,7 +215,7 @@ if (splides.length) {
       start: 0,
       focus: 0,
       gap: "1rem",
-      omitEnd: true,
+      omitEnd: false,
       breakpoints: {
         375: {
           perPage: 1,
