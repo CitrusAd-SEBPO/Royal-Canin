@@ -143,6 +143,7 @@ body {
 .pov1-right img {
   width: 100%;
   max-width: 260px;
+  margin-top: 3%;
 }
 img.citrusRoyal--logo {
   position: absolute;
@@ -155,7 +156,7 @@ img.citrusRoyal--logo {
   display: flex;
   justify-content: center;
   align-items: start;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .pov1-textBox h1 {
   margin: 0 0 5px;
@@ -204,8 +205,9 @@ img.citrusRoyal--logo {
 .pov3-left {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   text-align: center;
+  margin-top: 6%;
 }
 .pov3-left img {
   width: 100%;
@@ -216,6 +218,7 @@ img.citrusRoyal--logo {
   margin: 0;
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-size: 16px;
+  line-height: 18px;
   font-weight: bold;
   color: #000;
   text-align: center;
