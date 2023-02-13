@@ -145,6 +145,11 @@ body {
   max-width: 260px;
   margin-top: 3%;
 }
+.pov3-right img {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 3%;
+}
 img.citrusRoyal--logo {
   position: absolute;
   width: 120px;
@@ -195,7 +200,7 @@ img.citrusRoyal--logo {
   margin-right: 20px;
 }
 .citrusRoyal__povRow.pov02 {
-  background: #FEF3F3;
+  background: #fef3f3;
 }
 .pov2-right img.citrusRoyal--logo {
   width: 79px;
@@ -673,6 +678,7 @@ button {
   font-size: 18px;
   text-align: center;
   font-weight: bold;
+  color: #000;
 }
 .citrusRoyal__footerLeft img {
   width: 155px;
@@ -680,7 +686,10 @@ button {
 }
 
 .citrusRoyal__footerTextContainer {
+  margin: 40px auto;
   text-align: center;
+  display: grid;
+  justify-content: center;
 }
 .citrusRoyal__footerTextContainer p {
   width: 90%;
@@ -690,6 +699,18 @@ button {
   font-size: 16px;
   line-height: 22px;
   color: #000;
+}
+p.royal__disclaimerCopy {
+  margin: 10px 0 0;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000;
+  text-align: center;
+}
+p.royal__disclaimerCopy a {
+  color: #000;
+  text-decoration: none;
 }
 /*----------------------------------- responsive styling------------------------------------- */
 
@@ -769,5 +790,8 @@ button {
   }
   .citrusRoyal__footerLeft img {
     width: 89px;
+  }
+  p.royal__disclaimerCopy {
+    margin: 10px 50px 0;
   }
 }
